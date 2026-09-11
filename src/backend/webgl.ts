@@ -450,7 +450,7 @@ export class EkaraDeviceWebGL
 		);
 		for (const im of shaderRec.images) {
 			const gpuImage = rec.images[im.slot];
-			const gpuSampler = rec.images[im.slot];
+			const gpuSampler = rec.samplers[im.slot];
 			gl.activeTexture(gl.TEXTURE0 + im.unit);
 			gl.bindTexture(
 				gl.TEXTURE_2D,
