@@ -1,5 +1,5 @@
 {
-	"name": "ekara",
+	"name": "@miccdev/ekara",
 	"version": "0.0.1",
 	"description": "A web-based graphics library",
 	"main": "./dist/index.js",
