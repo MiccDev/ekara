@@ -1,6 +1,6 @@
 {
 	"name": "@miccdev/ekara",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "A web-based graphics library",
 	"main": "./dist/index.js",
 	"types": "./declarations/index.d.ts",
@@ -28,5 +28,9 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/MiccDev/ekara.git"
-	}
+	},
+	"files": [
+		"./dist",
+		"./declarations"
+	]
 }
