@@ -8,7 +8,6 @@
 
 		"declaration": true,
 		"outDir": "./dist",
-		"declarationDir": "./declarations",
 		"rootDir": "./src",
 
 		"strictNullChecks": true,
@@ -22,7 +21,6 @@
 		"noUncheckedSideEffectImports": true,
 		"skipLibCheck": true,
 		"verbatimModuleSyntax": true,
-		"forceConsistentCasingInFileNames": true,
 
 		"paths": {
 			"@/types": ["./src/types/index.ts"],

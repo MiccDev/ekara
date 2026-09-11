@@ -1,11 +1,12 @@
 {
 	"name": "@miccdev/ekara",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "A web-based graphics library",
 	"main": "./dist/index.js",
-	"types": "./declarations/index.d.ts",
+	"types": "./dist/index.d.ts",
 	"scripts": {
-		"build": "npx tsc && npx tsc-alias"
+		"build": "npx tsc && npx tsc-alias",
+		"prepublishOnly": "npm run build"
 	},
 	"keywords": [
 		"webgpu",
@@ -23,6 +24,7 @@
 	"type": "module",
 	"devDependencies": {
 		"tsc-alias": "^1.9.4",
+		"tsup": "^8.5.1",
 		"typescript": "^7.0.2"
 	},
 	"repository": {
@@ -30,7 +32,6 @@
 		"url": "https://github.com/MiccDev/ekara.git"
 	},
 	"files": [
-		"./dist",
-		"./declarations"
+		"./dist"
 	]
 }
