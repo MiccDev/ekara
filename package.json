@@ -1,11 +1,11 @@
 {
 	"name": "@miccdev/ekara",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A web-based graphics library",
 	"main": "./dist/index.js",
 	"types": "./declarations/index.d.ts",
 	"scripts": {
-		"build": "npx tsc"
+		"build": "npx tsc && npx tsc-alias"
 	},
 	"keywords": [
 		"webgpu",
@@ -22,6 +22,7 @@
 	"license": "Apache-2.0",
 	"type": "module",
 	"devDependencies": {
+		"tsc-alias": "^1.9.4",
 		"typescript": "^7.0.2"
 	},
 	"repository": {
