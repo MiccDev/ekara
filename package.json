@@ -1,0 +1,27 @@
+{
+	"name": "ekara",
+	"version": "0.0.0",
+	"description": "A web-based graphics library",
+	"main": "./dist/index.js",
+	"types": "./declarations/index.d.ts",
+	"scripts": {
+		"build": "npx tsc"
+	},
+	"keywords": [
+		"webgpu",
+		"webgl",
+		"game",
+		"graphics",
+		"game-library",
+		"game-engine",
+		"node"
+	],
+	"contributors": [
+		"MiccDev"
+	],
+	"license": "Apache-2.0",
+	"type": "commonjs",
+	"devDependencies": {
+		"typescript": "^7.0.2"
+	}
+}

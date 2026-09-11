@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+		"target": "ES2022",
+		"moduleResolution": "bundler",
+		"module": "esnext",
+		"lib": ["ES2022", "DOM", "DOM.Iterable"],
+		// "types": ["node"],
+
+		"declaration": true,
+		"outDir": "./dist",
+		"declarationDir": "./declarations",
+		"rootDir": "./src",
+
+		"strictNullChecks": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		// "noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": true,
+
+		"strict": true,
+		"noUncheckedSideEffectImports": true,
+		"skipLibCheck": true,
+		"verbatimModuleSyntax": true,
+		"forceConsistentCasingInFileNames": true,
+
+		"paths": {
+			"@/types": ["./src/types/index.ts"],
+			"@/collections": ["./src/collections/index.ts"],
+			"@/backend": ["./src/backend/index.ts"],
+			"@/resource": ["./src/resource/index.ts"]
+		}
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "dist"]
+}
